@@ -1,0 +1,3 @@
+Right now the simulation code is working fine. but the problem come that the input is small compare to the desired output. just need to change.
+Even this will work fine. but change the idea of the total process.
+so just need to interchange the input, desired signal...
