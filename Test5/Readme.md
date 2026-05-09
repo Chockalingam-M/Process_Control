@@ -7,11 +7,11 @@ output :
 =====================================
  FINAL FPGA RESULTS
 =====================================
-MSE                : 0.021509
-RMS Error          : 0.146660
-Correlation        : 0.981519
-Output SNR         : 14.094357 dB
-Estimated Delay    : 0.000100 sec
+MSE                : 0.021509 ,
+RMS Error          : 0.146660 ,
+Correlation        : 0.981519 ,
+Output SNR         : 14.094357 dB ,
+Estimated Delay    : 0.000100 sec ,
 =====================================
 
 Excellent convergence achieved.
