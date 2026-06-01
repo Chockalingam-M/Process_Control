@@ -16,6 +16,7 @@ The LMS filter updates its coefficients using the adaptive learning equation:
 where the error signal is calculated as:
   __e(n)=d(n)−y(n)__
 
+First, we built the FPGA analysis. The generated code simulates the frequency noise of 200Hz and stores the output in CSV format. For further analysis, we used MATLAB to find the error and create a convergence graph for observation.  We then simulated the same code on the Microncontroller and used Looger.py to push the parameters to VSCode.  From there, we converted and stored them in a CSV file. Finally, we imported the same CSV file into MATLAB for further analysis. 
 
 Simulation outputs were exported into CSV format and analyzed in MATLAB to study:
   Error convergence
@@ -23,5 +24,4 @@ Simulation outputs were exported into CSV format and analyzed in MATLAB to study
   Signal waveform behavior
   Overall filter performance
 
-To compare hardware and software execution, the same LMS algorithm was also implemented in C for microcontroller-based processing. 
 From the analysis, it was observed that the FPGA implementation achieved significantly better performance. 
